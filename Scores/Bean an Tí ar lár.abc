@@ -1,0 +1,19 @@
+X:1
+T:Bean an Tí ar lár
+%%scale 0.83
+L:1/8
+Q:1/4=200
+M:4/4
+I:linebreak $
+K:D
+V:1 treble nm="Bagpipe" snm="Bagp."
+V:1
+|:{/g} A3/2{/d}c/{/g} (3cBc{/g} dc{/e}B{/d}c |{/g} A{/d}c{/g}ea{/fg} f2{/g} e2 | %2
+{/g} A3/2{/d}c/{/g} (3cBc{/g} dc{/e}B{/d}c |{/g} f>B{/g} (3B{/d}B{/e}B{/g} f>B{/g} (3B{/d}B{/e}B |$ %4
+{/g} A3/2{/d}c/{/g} (3cBc{/g} dc{/e}B{/d}c |{/g} A{/d}c{/g}ea{/fg} f2{/g} e2 | %6
+{/gAG} A2{/d} c{/e}A{/gBd} B2{/g} AB |{/g} ce{/g}Bd{/g} c{/d}A{/e} A2 ::$ %8
+{/ag} a2{/g} af{/gf} g2{/a} ge | a2{/g} af{/g} ec{/e}A{/d}c | a2{/g} af{/gf} g2{/a} ge | %11
+{/g} f>B{/g} (3B{/d}B{/e}B{/g} f>B{/g} (3B{/d}B{/e}B |1$ a2{/g} af{/gf} g2{/a} ge | %13
+ a2{/g} af{/g} ec{/e}A{/d}c |{/gAG} A2{/d} c{/e}A{/gBd} B2{/g} AB | %15
+{/g} ce{/g}Bd{/g} c{/d}A{/e} A2 :|$ afge{/g} fd{/g}ec | af{/g}fd{/g} ec{/e}A{/d}c | %18
+{/gAG} A2{/d} c{/e}A{/gBd} B2{/g} AB |{/g} ce{/g}Bd{/g} c{/d}A{/e} A2 |] %20
