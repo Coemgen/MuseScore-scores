@@ -6,14 +6,36 @@
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">477</val>
+        </master>
+      <Fluid>
+        <val id="0">MuseScore_General.sf3</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.161809</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.33</val>
+        </Zita1>
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <measureSpacing>1</measureSpacing>
-      <oddFooterC>CYMRU</oddFooterC>
+      <swingUnit>eighth</swingUnit>
       <page-layout>
-        <page-height>1190.55</page-height>
-        <page-width>1683.78</page-width>
+        <page-height>1224</page-height>
+        <page-width>1584</page-width>
         <page-margins type="even">
           <left-margin>56.6929</left-margin>
           <right-margin>56.6929</right-margin>
@@ -34,19 +56,18 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composer">Trad. Arr. Duncan</metaTag>
-    <metaTag name="copyright">CYMRU</metaTag>
-    <metaTag name="creationDate">2018-11-29</metaTag>
+    <metaTag name="composer"></metaTag>
+    <metaTag name="copyright"></metaTag>
+    <metaTag name="creationDate">2018-11-05</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="originalFormat">bww</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">The Kesh Jig</metaTag>
+    <metaTag name="workTitle">Scatter the Mud/The Little House under the Hill</metaTag>
     <PageList>
       <Page>
         <System>
@@ -60,20 +81,52 @@
         <System>
           </System>
         </Page>
-      <Page>
-        <System>
-          </System>
-        </Page>
       </PageList>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
+          <name>stdNormal</name>
           </StaffType>
+        <bracket type="-1" span="0"/>
         </Staff>
       <trackName>Bagpipe</trackName>
       <Instrument>
         <longName>Bagpipe</longName>
+        <shortName>Bagp.</shortName>
         <trackName>Bagpipe</trackName>
+        <minPitchP>65</minPitchP>
+        <maxPitchP>79</maxPitchP>
+        <minPitchA>65</minPitchA>
+        <maxPitchA>79</maxPitchA>
+        <instrumentId>wind.pipes.bagpipes</instrumentId>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
         <Channel>
           <program value="109"/>
           <synti>Fluid</synti>
@@ -152,84 +205,108 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <lid>0</lid>
-        <Text>
-          <lid>1</lid>
-          <style>Title</style>
-          <text>The Kesh Jig</text>
-          </Text>
+        <lid>1</lid>
         <Text>
           <lid>2</lid>
-          <style>Subtitle</style>
-          <text>Jig</text>
+          <pos x="1.76465" y="0.35293"/>
+          <style>Title</style>
+          <text>Scatter the Mud</text>
           </Text>
         <Text>
           <lid>3</lid>
           <style>Composer</style>
-          <text>Trad. Arr. Duncan</text>
+          <text>Jig</text>
+          </Text>
+        <Text>
+          <lid>4</lid>
+          <style>Subtitle</style>
+          <text>Scaip an Múnlach</text>
           </Text>
         </VBox>
       <Measure number="1">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          <lid>4</lid>
-          </Clef>
-        <KeySig>
-          <lid>5</lid>
-          <accidental>2</accidental>
-          </KeySig>
         <TimeSig>
-          <lid>6</lid>
           <sigN>6</sigN>
           <sigD>8</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Rest>
-          <lid>7</lid>
+          <lid>311</lid>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
           </Rest>
         </Measure>
-      <Measure number="2">
+      <Measure number="2" len="5/8">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
         <Rest>
-          <lid>9</lid>
-          <durationType>measure</durationType>
-          <duration z="6" n="8"/>
+          <lid>312</lid>
+          <durationType>half</durationType>
+          </Rest>
+        <Rest>
+          <lid>313</lid>
+          <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="3">
+      <Measure number="3" len="1/8">
         <startRepeat/>
+        <irregular/>
         <BarLine>
           <subtype>start-repeat</subtype>
           <span>1</span>
-          <lid>11</lid>
           </BarLine>
-        <Tempo>
-          <tempo>1.4</tempo>
-          <followText>1</followText>
-          <lid>12</lid>
-          <text><sym>unicodeNoteQuarterUp</sym><sym>space</sym><sym>unicodeAugmentationDot</sym> = 56</text>
-          </Tempo>
         <Chord>
-          <lid>15</lid>
+          <lid>5</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>6</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="3">
+        <Chord>
+          <lid>9</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>16</lid>
+            <lid>10</lid>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>13</lid>
-          <BeamMode>begin</BeamMode>
+          <lid>7</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <Note>
+            <lid>8</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>11</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>12</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>15</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>16</lid>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>13</lid>
+          <durationType>eighth</durationType>
           <Note>
             <lid>14</lid>
             <pitch>69</pitch>
@@ -237,43 +314,80 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>19</lid>
+          <lid>283</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>20</lid>
+            <lid>284</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>285</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>286</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>287</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>288</lid>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
+          <lid>281</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>282</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
           <lid>17</lid>
+          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>18</lid>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="4">
         <Chord>
-          <lid>23</lid>
+          <lid>21</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>24</lid>
+            <lid>22</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>19</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>20</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>21</lid>
+          <lid>23</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>22</lid>
+            <lid>24</lid>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -282,18 +396,15 @@
           <lid>27</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>28</lid>
-            <pitch>79</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>25</lid>
-          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>26</lid>
             <pitch>69</pitch>
@@ -301,225 +412,271 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>29</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>30</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
           <lid>31</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
             <lid>32</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="4">
-        <Chord>
-          <lid>36</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>37</lid>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>34</lid>
-          <BeamMode>begin</BeamMode>
+          <lid>29</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>35</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>40</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>41</lid>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>38</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>39</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>44</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>45</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>42</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>43</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>48</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>49</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>46</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>47</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>52</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>53</lid>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>50</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>51</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>54</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>55</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="5">
-        <Chord>
-          <lid>59</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>60</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>57</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>58</lid>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>61</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>62</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>65</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>66</lid>
+            <lid>30</lid>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>63</lid>
+          <lid>33</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>64</lid>
+            <lid>34</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>35</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>36</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="5">
+        <Chord>
+          <lid>39</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>40</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>37</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>38</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>67</lid>
-          <BeamMode>begin</BeamMode>
+          <lid>41</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>68</lid>
-            <pitch>81</pitch>
+            <lid>42</lid>
+            <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>69</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <lid>45</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
-            <lid>70</lid>
+            <lid>46</lid>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>43</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>44</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>291</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>292</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>73</lid>
+          <lid>293</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
+          <Note>
+            <lid>294</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>295</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>296</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>289</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>290</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>47</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>48</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="6">
+        <Chord>
+          <lid>51</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>52</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>49</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>50</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>53</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>54</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>57</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>58</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>55</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>56</lid>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>61</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>62</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>59</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>60</lid>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>63</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>64</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>65</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>66</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="7">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Chord>
+          <lid>69</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>70</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>67</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>68</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>71</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>72</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>75</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>76</lid>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>73</lid>
+          <durationType>eighth</durationType>
           <Note>
             <lid>74</lid>
             <pitch>69</pitch>
@@ -527,156 +684,156 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>71</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>72</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="6">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Chord>
-          <lid>78</lid>
+          <lid>299</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>79</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>76</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>77</lid>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>80</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>81</lid>
+            <lid>300</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>82</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>83</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>86</lid>
+          <lid>301</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>87</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>84</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>85</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>88</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>89</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>90</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>91</lid>
+            <lid>302</lid>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="7">
         <Chord>
-          <lid>95</lid>
+          <lid>303</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>96</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>93</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>94</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>99</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>100</lid>
+            <lid>304</lid>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>97</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <lid>297</lid>
+          <durationType>quarter</durationType>
           <Note>
-            <lid>98</lid>
+            <lid>298</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>77</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>78</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="8">
+        <Chord>
+          <lid>81</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>82</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>79</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>80</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>83</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>84</lid>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>103</lid>
+          <lid>87</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>104</lid>
+            <lid>88</lid>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>85</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>86</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>91</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>92</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>89</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>90</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>93</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>94</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>95</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>96</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="9">
+        <Chord>
+          <lid>99</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>100</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>97</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>98</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -684,18 +841,25 @@
         <Chord>
           <lid>101</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>102</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>103</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>104</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>107</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>108</lid>
             <pitch>79</pitch>
@@ -703,20 +867,9 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>105</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>106</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
           <lid>109</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
             <lid>110</lid>
             <pitch>71</pitch>
@@ -725,140 +878,149 @@
           </Chord>
         <Chord>
           <lid>111</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
             <lid>112</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="8">
-        <Chord>
-          <lid>116</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>117</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>114</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>115</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>120</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>121</lid>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>118</lid>
+          <lid>105</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>119</lid>
+            <lid>106</lid>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>124</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>125</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>122</lid>
+          <lid>113</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>123</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>128</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>129</lid>
+            <lid>114</lid>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>126</lid>
-          <BeamMode>begin</BeamMode>
+          <lid>115</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>127</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>132</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>133</lid>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>130</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>131</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>134</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>135</lid>
+            <lid>116</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9">
+      <Measure number="10" len="5/8">
+        <endRepeat>2</endRepeat>
+        <Chord>
+          <lid>119</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>120</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>117</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>118</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>121</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>122</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>125</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>126</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>123</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>124</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>129</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>130</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>131</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>132</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>133</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>134</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>127</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>128</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11" len="1/8">
+        <startRepeat/>
+        <irregular/>
+        <Chord>
+          <lid>135</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>136</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11">
         <Chord>
           <lid>139</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>140</lid>
             <pitch>79</pitch>
@@ -867,63 +1029,65 @@
           </Chord>
         <Chord>
           <lid>137</lid>
-          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>138</lid>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>141</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>142</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>145</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>146</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>143</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>144</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>147</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>148</lid>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
+          <lid>147</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>148</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
           <lid>149</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>150</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>153</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>154</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -931,153 +1095,135 @@
         <Chord>
           <lid>151</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>152</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="10">
-        <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Chord>
-          <lid>156</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>157</lid>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="12">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
-          <lid>154</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <lid>157</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
-            <lid>155</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <lid>158</lid>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>160</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
+          <lid>155</lid>
+          <durationType>eighth</durationType>
           <Note>
-            <lid>161</lid>
+            <lid>156</lid>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>158</lid>
+          <lid>159</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>159</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <lid>160</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>164</lid>
+          <lid>163</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>165</lid>
+            <lid>164</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>162</lid>
+          <lid>161</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>163</lid>
+            <lid>162</lid>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>168</lid>
-          <BeamMode>begin</BeamMode>
+          <lid>167</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>169</lid>
-            <pitch>67</pitch>
+            <lid>168</lid>
+            <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>170</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>171</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>172</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>173</lid>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>166</lid>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>167</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="11" len="1/8">
-        <startRepeat/>
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>1</span>
-          <lid>175</lid>
-          </BarLine>
-        <Chord>
-          <lid>176</lid>
+          <lid>165</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>177</lid>
+            <lid>166</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>169</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>170</lid>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
+        <Chord>
+          <lid>171</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>172</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="13">
+        <Chord>
+          <lid>175</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>176</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>173</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>174</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>177</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>178</lid>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
         <Chord>
           <lid>181</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>182</lid>
             <pitch>79</pitch>
@@ -1086,41 +1232,35 @@
           </Chord>
         <Chord>
           <lid>179</lid>
-          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>180</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>185</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>186</lid>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>183</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>184</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>185</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>186</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>189</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>190</lid>
             <pitch>76</pitch>
@@ -1130,389 +1270,367 @@
         <Chord>
           <lid>187</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>188</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>193</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>194</lid>
             <pitch>79</pitch>
             <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>191</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>192</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>195</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>196</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>197</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>198</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="13">
-        <Chord>
-          <lid>202</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>203</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>200</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>201</lid>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>204</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>205</lid>
-            <pitch>81</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>206</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>207</lid>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>210</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>211</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>208</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>209</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>212</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>213</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>216</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>217</lid>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>214</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>215</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="14">
         <Chord>
-          <lid>221</lid>
+          <lid>193</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>222</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <lid>194</lid>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>219</lid>
-          <BeamMode>begin</BeamMode>
+          <lid>191</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>220</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>225</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>226</lid>
+            <lid>192</lid>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>223</lid>
+          <lid>195</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>224</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <lid>196</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>229</lid>
+          <lid>199</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>230</lid>
+            <lid>200</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>197</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>198</lid>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>203</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>204</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>201</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>202</lid>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>205</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>206</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>207</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>208</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="15">
+        <Chord>
+          <lid>211</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>212</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>209</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>210</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>227</lid>
+          <lid>213</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <Note>
+            <lid>214</lid>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>215</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>216</lid>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>78</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>219</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>220</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>221</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>222</lid>
+            <pitch>78</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>217</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>218</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>223</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>224</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="16">
+        <Chord>
+          <lid>227</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
             <lid>228</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>225</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>226</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>229</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>230</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>233</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>234</lid>
-            <pitch>79</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>231</lid>
-          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>232</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>237</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>238</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>235</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>236</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>239</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>240</lid>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>237</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>238</lid>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="15">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Chord>
-          <lid>244</lid>
+          <lid>239</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>240</lid>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>241</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>242</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="17">
+        <Chord>
+          <lid>245</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>245</lid>
+            <lid>246</lid>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>242</lid>
-          <BeamMode>begin</BeamMode>
+          <lid>243</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>243</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>248</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>249</lid>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>246</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>247</lid>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>252</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>253</lid>
+            <lid>244</lid>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>250</lid>
+          <lid>247</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>251</lid>
+            <lid>248</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>249</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>250</lid>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>256</lid>
+          <lid>253</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>257</lid>
+            <lid>254</lid>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>254</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <lid>255</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
-            <lid>255</lid>
+            <lid>256</lid>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>258</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <lid>257</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
-            <lid>259</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <lid>258</lid>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>260</lid>
+          <lid>251</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>261</lid>
+            <lid>252</lid>
             <pitch>71</pitch>
             <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>259</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>260</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>261</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>262</lid>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="16">
+      <Measure number="18" len="5/8">
+        <endRepeat>2</endRepeat>
         <Chord>
           <lid>265</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>266</lid>
             <pitch>79</pitch>
@@ -1521,22 +1639,9 @@
           </Chord>
         <Chord>
           <lid>263</lid>
-          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>264</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>269</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>270</lid>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -1544,344 +1649,67 @@
         <Chord>
           <lid>267</lid>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
             <lid>268</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>273</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>274</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>271</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
           <Note>
             <lid>272</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>269</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>270</lid>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>275</lid>
+          <durationType>32nd</durationType>
+          <acciaccatura/>
+          <Note>
+            <lid>276</lid>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <lid>277</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
             <lid>278</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>275</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>276</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>279</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>280</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>281</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>282</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="17">
-        <Chord>
-          <lid>286</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>287</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>284</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>285</lid>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>288</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>289</lid>
-            <pitch>81</pitch>
+            <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>290</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>291</lid>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>294</lid>
+          <lid>279</lid>
           <durationType>32nd</durationType>
           <acciaccatura/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <lid>295</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>292</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>293</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>296</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>297</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>300</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>301</lid>
+            <lid>280</lid>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>298</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>299</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="18">
-        <Chord>
-          <lid>305</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>306</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>303</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>304</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>307</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>308</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>311</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>312</lid>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>309</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>310</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>315</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>316</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>313</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>314</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>317</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>318</lid>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>319</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>320</lid>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="19" len="5/8">
-        <endRepeat>2</endRepeat>
-        <Chord>
-          <lid>324</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>325</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>322</lid>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>323</lid>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>326</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>327</lid>
-            <pitch>81</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>330</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>331</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>328</lid>
-          <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <lid>329</lid>
-            <pitch>81</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>334</lid>
-          <durationType>32nd</durationType>
-          <acciaccatura/>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <lid>335</lid>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>332</lid>
+          <lid>273</lid>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
           <Note>
-            <lid>333</lid>
-            <pitch>81</pitch>
+            <lid>274</lid>
+            <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
@@ -1913,7 +1741,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="2">
+      <Measure number="2" len="5/8">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -1924,7 +1752,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1933,11 +1760,16 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3">
+      <Measure number="3" len="1/8">
         <BarLine>
           <subtype>start-repeat</subtype>
           <span>1</span>
           </BarLine>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="3">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -2077,7 +1909,31 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10">
+      <Measure number="10" len="5/8">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11" len="1/8">
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="11">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -2096,15 +1952,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="11" len="1/8">
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>1</span>
-          </BarLine>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
         </Measure>
       <Measure number="12">
         <Chord>
@@ -2226,27 +2073,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="18">
-        <Chord>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="19" len="5/8">
+      <Measure number="18" len="5/8">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -2273,12 +2100,11 @@
         </Synthesizer>
       <Division>480</Division>
       <Style>
-        <measureSpacing>1</measureSpacing>
+        <swingUnit>eighth</swingUnit>
         <createMultiMeasureRests>1</createMultiMeasureRests>
-        <oddFooterC>CYMRU</oddFooterC>
         <page-layout>
-          <page-height>1584</page-height>
-          <page-width>1224</page-width>
+          <page-height>1224</page-height>
+          <page-width>1584</page-width>
           <page-margins type="even">
             <left-margin>56.6929</left-margin>
             <right-margin>56.6929</right-margin>
@@ -2292,7 +2118,7 @@
             <bottom-margin>113.386</bottom-margin>
             </page-margins>
           </page-layout>
-        <Spatium>1.76389</Spatium>
+        <Spatium>1.764</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
       <showUnprintable>1</showUnprintable>
@@ -2309,20 +2135,54 @@
             </System>
           <System>
             </System>
-          <System>
-            </System>
           </Page>
         </PageList>
       <Part>
         <Staff id="1">
           <linkedTo>1</linkedTo>
           <StaffType group="pitched">
+            <name>stdNormal</name>
             </StaffType>
+          <bracket type="-1" span="0"/>
           </Staff>
         <trackName>Bagpipe</trackName>
         <Instrument>
           <longName>Bagpipe</longName>
+          <shortName>Bagp.</shortName>
           <trackName>Bagpipe</trackName>
+          <minPitchP>65</minPitchP>
+          <maxPitchP>79</maxPitchP>
+          <minPitchA>65</minPitchA>
+          <maxPitchA>79</maxPitchA>
+          <instrumentId>wind.pipes.bagpipes</instrumentId>
+          <Articulation>
+            <velocity>100</velocity>
+            <gateTime>100</gateTime>
+            </Articulation>
+          <Articulation name="staccatissimo">
+            <velocity>100</velocity>
+            <gateTime>33</gateTime>
+            </Articulation>
+          <Articulation name="staccato">
+            <velocity>100</velocity>
+            <gateTime>50</gateTime>
+            </Articulation>
+          <Articulation name="portato">
+            <velocity>100</velocity>
+            <gateTime>67</gateTime>
+            </Articulation>
+          <Articulation name="tenuto">
+            <velocity>100</velocity>
+            <gateTime>100</gateTime>
+            </Articulation>
+          <Articulation name="marcato">
+            <velocity>120</velocity>
+            <gateTime>67</gateTime>
+            </Articulation>
+          <Articulation name="sforzato">
+            <velocity>120</velocity>
+            <gateTime>100</gateTime>
+            </Articulation>
           <Channel>
             <program value="109"/>
             <synti>Fluid</synti>
@@ -2332,21 +2192,22 @@
       <Staff id="1">
         <VBox>
           <height>10</height>
-          <lid>0</lid>
-          <Text>
-            <lid>1</lid>
-            <style>Title</style>
-            <text>The Kesh Jig</text>
-            </Text>
+          <lid>1</lid>
           <Text>
             <lid>2</lid>
-            <style>Subtitle</style>
-            <text>Jig</text>
+            <pos x="1.76476" y="0.352952"/>
+            <style>Title</style>
+            <text>Scatter the Mud</text>
             </Text>
           <Text>
             <lid>3</lid>
             <style>Composer</style>
-            <text>Trad. Arr. Duncan</text>
+            <text>Jig</text>
+            </Text>
+          <Text>
+            <lid>4</lid>
+            <style>Subtitle</style>
+            <text>Scaip an Múnlach</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -2354,78 +2215,85 @@
             </Text>
           </VBox>
         <Measure number="1">
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <lid>4</lid>
-            </Clef>
           <KeySig>
+            <accidental>2</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>8</sigD>
+            <showCourtesySig>1</showCourtesySig>
+            </TimeSig>
+          <Rest>
+            <lid>311</lid>
+            <durationType>measure</durationType>
+            <duration z="6" n="8"/>
+            </Rest>
+          </Measure>
+        <Measure number="2" len="5/8">
+          <Rest>
+            <lid>312</lid>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <lid>313</lid>
+            <durationType>eighth</durationType>
+            </Rest>
+          </Measure>
+        <Measure number="3" len="1/8">
+          <startRepeat/>
+          <irregular/>
+          <Chord>
             <lid>5</lid>
-            <accidental>2</accidental>
-            </KeySig>
-          <TimeSig>
-            <lid>6</lid>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            <showCourtesySig>1</showCourtesySig>
-            </TimeSig>
-          <Rest>
-            <lid>7</lid>
-            <durationType>measure</durationType>
-            <duration z="6" n="8"/>
-            </Rest>
-          </Measure>
-        <Measure number="1" len="12/8">
-          <multiMeasureRest>2</multiMeasureRest>
-          <KeySig>
-            <accidental>2</accidental>
-            </KeySig>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            <showCourtesySig>1</showCourtesySig>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration z="12" n="8"/>
-            </Rest>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            <span>1</span>
-            </BarLine>
-          </Measure>
-        <tick>1440</tick>
-        <Measure number="2">
-          <Rest>
-            <lid>9</lid>
-            <durationType>measure</durationType>
-            <duration z="6" n="8"/>
-            </Rest>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>6</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           </Measure>
         <Measure number="3">
-          <startRepeat/>
-          <Tempo>
-            <tempo>1.4</tempo>
-            <followText>1</followText>
-            <lid>12</lid>
-            <text><sym>unicodeNoteQuarterUp</sym><sym>space</sym><sym>unicodeAugmentationDot</sym> = 56</text>
-            </Tempo>
           <Chord>
-            <lid>15</lid>
+            <lid>9</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>16</lid>
+              <lid>10</lid>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>13</lid>
-            <BeamMode>begin</BeamMode>
+            <lid>7</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <Note>
+              <lid>8</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>11</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>12</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>15</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>16</lid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>13</lid>
+            <durationType>eighth</durationType>
             <Note>
               <lid>14</lid>
               <pitch>69</pitch>
@@ -2433,43 +2301,80 @@
               </Note>
             </Chord>
           <Chord>
-            <lid>19</lid>
+            <lid>283</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>20</lid>
+              <lid>284</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>285</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>286</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>287</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>288</lid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <lid>281</lid>
+            <durationType>quarter</durationType>
+            <Note>
+              <lid>282</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <lid>17</lid>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>18</lid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          </Measure>
+        <Measure number="4">
           <Chord>
-            <lid>23</lid>
+            <lid>21</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>24</lid>
+              <lid>22</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>19</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>20</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>21</lid>
+            <lid>23</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>22</lid>
+              <lid>24</lid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -2478,18 +2383,15 @@
             <lid>27</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>28</lid>
-              <pitch>79</pitch>
+              <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>25</lid>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>26</lid>
               <pitch>69</pitch>
@@ -2497,225 +2399,271 @@
               </Note>
             </Chord>
           <Chord>
-            <lid>29</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>30</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
             <lid>31</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
               <lid>32</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="4">
-          <Chord>
-            <lid>36</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>37</lid>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>34</lid>
-            <BeamMode>begin</BeamMode>
+            <lid>29</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>35</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>40</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>41</lid>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>38</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>39</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>44</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>45</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>42</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>43</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>48</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>49</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>46</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>47</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>52</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>53</lid>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>50</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>51</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>54</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>55</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="5">
-          <Chord>
-            <lid>59</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>60</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>57</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>58</lid>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>61</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>62</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>65</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>66</lid>
+              <lid>30</lid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>63</lid>
+            <lid>33</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>64</lid>
+              <lid>34</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>35</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>36</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="5">
+          <Chord>
+            <lid>39</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>40</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>37</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>38</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>67</lid>
-            <BeamMode>begin</BeamMode>
+            <lid>41</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>68</lid>
-              <pitch>81</pitch>
+              <lid>42</lid>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>69</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <lid>45</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
-              <lid>70</lid>
+              <lid>46</lid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>43</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>44</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>291</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>292</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>73</lid>
+            <lid>293</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
+            <Note>
+              <lid>294</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>295</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>296</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>289</lid>
+            <durationType>quarter</durationType>
+            <Note>
+              <lid>290</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>47</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>48</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="6">
+          <Chord>
+            <lid>51</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>52</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>49</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>50</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>53</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>54</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>57</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>58</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>55</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>56</lid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>61</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>62</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>59</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>60</lid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>63</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>64</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>65</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>66</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="7">
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
+          <Chord>
+            <lid>69</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>70</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>67</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>68</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>71</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>72</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>75</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>76</lid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>73</lid>
+            <durationType>eighth</durationType>
             <Note>
               <lid>74</lid>
               <pitch>69</pitch>
@@ -2723,153 +2671,156 @@
               </Note>
             </Chord>
           <Chord>
-            <lid>71</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>72</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="6">
-          <Chord>
-            <lid>78</lid>
+            <lid>299</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>79</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>76</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>77</lid>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>80</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>81</lid>
+              <lid>300</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>82</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>83</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>86</lid>
+            <lid>301</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>87</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>84</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>85</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>88</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>89</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>90</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>91</lid>
+              <lid>302</lid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          </Measure>
-        <Measure number="7">
           <Chord>
-            <lid>95</lid>
+            <lid>303</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>96</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>93</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>94</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>99</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>100</lid>
+              <lid>304</lid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>97</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <lid>297</lid>
+            <durationType>quarter</durationType>
             <Note>
-              <lid>98</lid>
+              <lid>298</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>77</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>78</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="8">
+          <Chord>
+            <lid>81</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>82</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>79</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>80</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>83</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>84</lid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>103</lid>
+            <lid>87</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>104</lid>
+              <lid>88</lid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>85</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>86</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>91</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>92</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>89</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>90</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>93</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>94</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>95</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>96</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="9">
+          <Chord>
+            <lid>99</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>100</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>97</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>98</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -2877,18 +2828,25 @@
           <Chord>
             <lid>101</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>102</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>103</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>104</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>107</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>108</lid>
               <pitch>79</pitch>
@@ -2896,20 +2854,9 @@
               </Note>
             </Chord>
           <Chord>
-            <lid>105</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>106</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
             <lid>109</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
               <lid>110</lid>
               <pitch>71</pitch>
@@ -2918,140 +2865,149 @@
             </Chord>
           <Chord>
             <lid>111</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
               <lid>112</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="8">
-          <Chord>
-            <lid>116</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>117</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>114</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>115</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>120</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>121</lid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>118</lid>
+            <lid>105</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>119</lid>
+              <lid>106</lid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>124</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>125</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>122</lid>
+            <lid>113</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>123</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>128</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>129</lid>
+              <lid>114</lid>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>126</lid>
-            <BeamMode>begin</BeamMode>
+            <lid>115</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>127</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>132</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>133</lid>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>130</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>131</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>134</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>135</lid>
+              <lid>116</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           </Measure>
-        <Measure number="9">
+        <Measure number="10" len="5/8">
+          <endRepeat>2</endRepeat>
+          <Chord>
+            <lid>119</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>120</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>117</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>118</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>121</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>122</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>125</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>126</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>123</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>124</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>129</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>130</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>131</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>132</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>133</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>134</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>127</lid>
+            <durationType>quarter</durationType>
+            <Note>
+              <lid>128</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="11" len="1/8">
+          <startRepeat/>
+          <irregular/>
+          <Chord>
+            <lid>135</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>136</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="11">
           <Chord>
             <lid>139</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>140</lid>
               <pitch>79</pitch>
@@ -3060,63 +3016,65 @@
             </Chord>
           <Chord>
             <lid>137</lid>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>138</lid>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>141</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>142</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>145</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>146</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>143</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>144</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>147</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>148</lid>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <lid>147</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>148</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <lid>149</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>150</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>153</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>154</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -3124,145 +3082,135 @@
           <Chord>
             <lid>151</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>152</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="10">
-          <endRepeat>2</endRepeat>
-          <Chord>
-            <lid>156</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>157</lid>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          </Measure>
+        <Measure number="12">
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <Chord>
-            <lid>154</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <lid>157</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
-              <lid>155</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <lid>158</lid>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>160</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
+            <lid>155</lid>
+            <durationType>eighth</durationType>
             <Note>
-              <lid>161</lid>
+              <lid>156</lid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>158</lid>
+            <lid>159</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>159</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <lid>160</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>164</lid>
+            <lid>163</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>165</lid>
+              <lid>164</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>162</lid>
+            <lid>161</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>163</lid>
+              <lid>162</lid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>168</lid>
-            <BeamMode>begin</BeamMode>
+            <lid>167</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>169</lid>
-              <pitch>67</pitch>
+              <lid>168</lid>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>170</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>171</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>172</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>173</lid>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>166</lid>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>167</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="11" len="1/8">
-          <startRepeat/>
-          <Chord>
-            <lid>176</lid>
+            <lid>165</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>177</lid>
+              <lid>166</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>169</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>170</lid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Chord>
+            <lid>171</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>172</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           </Measure>
-        <Measure number="12">
+        <Measure number="13">
+          <Chord>
+            <lid>175</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>176</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>173</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>174</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>177</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>178</lid>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <lid>181</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>182</lid>
               <pitch>79</pitch>
@@ -3271,41 +3219,35 @@
             </Chord>
           <Chord>
             <lid>179</lid>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>180</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>185</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>186</lid>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>183</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>184</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>185</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>186</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>189</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>190</lid>
               <pitch>76</pitch>
@@ -3315,386 +3257,364 @@
           <Chord>
             <lid>187</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>188</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>193</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>194</lid>
               <pitch>79</pitch>
               <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>191</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>192</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>195</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>196</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>197</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>198</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="13">
-          <Chord>
-            <lid>202</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>203</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>200</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>201</lid>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>204</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>205</lid>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>206</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>207</lid>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>210</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>211</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>208</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>209</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>212</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>213</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>216</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>217</lid>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>214</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>215</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
               </Note>
             </Chord>
           </Measure>
         <Measure number="14">
           <Chord>
-            <lid>221</lid>
+            <lid>193</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>222</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
+              <lid>194</lid>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>219</lid>
-            <BeamMode>begin</BeamMode>
+            <lid>191</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>220</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>225</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>226</lid>
+              <lid>192</lid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>223</lid>
+            <lid>195</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>224</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
+              <lid>196</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>229</lid>
+            <lid>199</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>230</lid>
+              <lid>200</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>197</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>198</lid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>203</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>204</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>201</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>202</lid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>205</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>206</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>207</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>208</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="15">
+          <Chord>
+            <lid>211</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>212</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>209</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>210</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>227</lid>
+            <lid>213</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <Note>
+              <lid>214</lid>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>215</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>216</lid>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>219</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>220</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>221</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>222</lid>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>217</lid>
+            <durationType>quarter</durationType>
+            <Note>
+              <lid>218</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>223</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>224</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="16">
+          <Chord>
+            <lid>227</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
               <lid>228</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>225</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>226</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>229</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>230</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>233</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>234</lid>
-              <pitch>79</pitch>
+              <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>231</lid>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>232</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>237</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>238</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>235</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>236</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>239</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>240</lid>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>237</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>238</lid>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          </Measure>
-        <Measure number="15">
           <Chord>
-            <lid>244</lid>
+            <lid>239</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>240</lid>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>241</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>242</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </Measure>
+        <Measure number="17">
+          <Chord>
+            <lid>245</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>245</lid>
+              <lid>246</lid>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>242</lid>
-            <BeamMode>begin</BeamMode>
+            <lid>243</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>243</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>248</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>249</lid>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>246</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>247</lid>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>252</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>253</lid>
+              <lid>244</lid>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>250</lid>
+            <lid>247</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>251</lid>
+              <lid>248</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>249</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>250</lid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>256</lid>
+            <lid>253</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>257</lid>
+              <lid>254</lid>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>254</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <lid>255</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
-              <lid>255</lid>
+              <lid>256</lid>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>258</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <lid>257</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
-              <lid>259</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <lid>258</lid>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>260</lid>
+            <lid>251</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>261</lid>
+              <lid>252</lid>
               <pitch>71</pitch>
               <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>259</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>260</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>261</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>262</lid>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           </Measure>
-        <Measure number="16">
+        <Measure number="18" len="5/8">
+          <endRepeat>2</endRepeat>
           <Chord>
             <lid>265</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>266</lid>
               <pitch>79</pitch>
@@ -3703,22 +3623,9 @@
             </Chord>
           <Chord>
             <lid>263</lid>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>264</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>269</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>270</lid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -3726,344 +3633,67 @@
           <Chord>
             <lid>267</lid>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <lid>268</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>273</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>274</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>271</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
             <Note>
               <lid>272</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>269</lid>
+            <durationType>eighth</durationType>
+            <Note>
+              <lid>270</lid>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <lid>275</lid>
+            <durationType>32nd</durationType>
+            <acciaccatura/>
+            <Note>
+              <lid>276</lid>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <lid>277</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
               <lid>278</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>275</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>276</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>279</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>280</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>281</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>282</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="17">
-          <Chord>
-            <lid>286</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>287</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>284</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>285</lid>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>288</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>289</lid>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>290</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>291</lid>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>294</lid>
+            <lid>279</lid>
             <durationType>32nd</durationType>
             <acciaccatura/>
-            <StemDirection>up</StemDirection>
             <Note>
-              <lid>295</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>292</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>293</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>296</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>297</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>300</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>301</lid>
+              <lid>280</lid>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>298</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>299</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="18">
-          <Chord>
-            <lid>305</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>306</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>303</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>304</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>307</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>308</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>311</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>312</lid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>309</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>310</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>315</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>316</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>313</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>314</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>317</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>318</lid>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>319</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>320</lid>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </Measure>
-        <Measure number="19" len="5/8">
-          <endRepeat>2</endRepeat>
-          <Chord>
-            <lid>324</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>325</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>322</lid>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>323</lid>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>326</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>327</lid>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>330</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>331</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>328</lid>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <lid>329</lid>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>334</lid>
-            <durationType>32nd</durationType>
-            <acciaccatura/>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <lid>335</lid>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <lid>332</lid>
+            <lid>273</lid>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <lid>333</lid>
-              <pitch>81</pitch>
+              <lid>274</lid>
+              <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
