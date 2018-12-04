@@ -96,9 +96,9 @@ Dunrobin Castle</text>
           <span>1</span>
           </BarLine>
         <Tempo>
-          <tempo>0.933333</tempo>
+          <tempo>1.86667</tempo>
           <followText>1</followText>
-          <text><sym>unicodeNoteQuarterUp</sym> = 56.00</text>
+          <text><sym>unicodeNoteHalfUp</sym> = 56</text>
           </Tempo>
         <Chord>
           <durationType>eighth</durationType>
