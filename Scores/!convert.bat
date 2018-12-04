@@ -1,1 +1,0 @@
-for /R . %%F in (*.mscz)do echo %%F
