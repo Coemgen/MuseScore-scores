@@ -4,3 +4,6 @@
 *.pdf
 *.abc
 *.mscx,
+/*
+!Instruments/
+!Scores/
