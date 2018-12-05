@@ -113,11 +113,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <height>10</height>
         <Text>
           <style>Title</style>
-          <text>Sir James MacDonald of the Isles' Lament</text>
-          </Text>
-        <Text>
-          <style>Subtitle</style>
-          <text>Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</text>
+          <text>Canntaireachd</text>
           </Text>
         </VBox>
       <Measure number="1" len="19/16">
