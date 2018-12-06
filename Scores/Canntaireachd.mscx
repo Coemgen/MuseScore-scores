@@ -65,6 +65,8 @@
       <Page>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1099,7 +1101,12 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <StaffText>
+          <pos x="-4.3" y="-6.3"/>
+          <text>cadence</text>
+          </StaffText>
         <Chord>
+          <small>1</small>
           <durationType>32nd</durationType>
           <grace32/>
           <Note>
@@ -1108,13 +1115,25 @@
             </Note>
           </Chord>
         <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <text>hi</text>
             </Lyrics>
+          <Stem>
+            <visible>0</visible>
+            </Stem>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <visible>0</visible>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2006,6 +2025,9 @@
           </Rest>
         </Measure>
       <Measure number="16">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <StaffText>
           <pos x="-5.64689" y="-6.11758"/>
           <text>bubbly note</text>
@@ -2065,6 +2087,72 @@
           </Rest>
         <Rest>
           <durationType>half</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="17">
+        <StaffText>
+          <pos x="-4.9" y="-6.7"/>
+          <text>throw on F</text>
+          </StaffText>
+        <Chord>
+          <durationType>32nd</durationType>
+          <grace32/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>32nd</durationType>
+          <grace32/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>32nd</durationType>
+          <grace32/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>32nd</durationType>
+          <grace32/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>dare</text>
+            </Lyrics>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Rest>
+          <durationType>half</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="18">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="19">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
           </Rest>
         </Measure>
       </Staff>
