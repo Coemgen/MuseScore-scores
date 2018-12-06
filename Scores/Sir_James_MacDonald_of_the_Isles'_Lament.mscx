@@ -192,6 +192,11 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Rest>
         </Measure>
       <Measure number="2" len="5/4">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -304,7 +309,6 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
@@ -314,7 +318,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <acciaccatura/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -322,7 +326,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <acciaccatura/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -466,6 +470,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         </Measure>
       <Measure number="4" len="5/4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -911,7 +918,6 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
@@ -921,7 +927,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <acciaccatura/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -929,7 +935,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <acciaccatura/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -982,8 +988,8 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>em</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1211,7 +1217,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>edre</text>
+            <text>dre</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1307,7 +1313,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>edre</text>
+            <text>dre</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1387,10 +1393,13 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         </Measure>
       <Measure number="10" len="3/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Volta id="2">
           <endHook>1</endHook>
           <beginText>
-            <text>2</text>
+            <text>2.</text>
             </beginText>
           <endings>2</endings>
           </Volta>
@@ -1501,7 +1510,6 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>16th</durationType>
           <Beam>12</Beam>
           <Lyrics>
-            <syllabic>begin</syllabic>
             <text>o</text>
             </Lyrics>
           <Note>
@@ -1696,7 +1704,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         <BarLine>
-          <subtype>double</subtype>
+          <subtype>normal</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
@@ -1840,7 +1848,6 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
@@ -1850,7 +1857,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <acciaccatura/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -1858,7 +1865,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <acciaccatura/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2016,33 +2023,27 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="3">
-              </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="4">
-              </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="2" len="5/4">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="5">
-              </Tie>
-            <endSpanner id="3"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="6">
-              </Tie>
-            <endSpanner id="4"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2050,16 +2051,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <Tie id="7">
-              </Tie>
-            <endSpanner id="5"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="8">
-              </Tie>
-            <endSpanner id="6"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2069,16 +2064,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="9">
-              </Tie>
-            <endSpanner id="7"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="10">
-              </Tie>
-            <endSpanner id="8"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2088,16 +2077,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="11">
-              </Tie>
-            <endSpanner id="9"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="12">
-              </Tie>
-            <endSpanner id="10"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2105,16 +2088,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <Tie id="13">
-              </Tie>
-            <endSpanner id="11"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="14">
-              </Tie>
-            <endSpanner id="12"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2125,16 +2102,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <dots>1</dots>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="15">
-              </Tie>
-            <endSpanner id="13"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="16">
-              </Tie>
-            <endSpanner id="14"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2145,16 +2116,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <dots>1</dots>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="17">
-              </Tie>
-            <endSpanner id="15"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="18">
-              </Tie>
-            <endSpanner id="16"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2164,16 +2129,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="19">
-              </Tie>
-            <endSpanner id="17"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="20">
-              </Tie>
-            <endSpanner id="18"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2187,16 +2146,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="21">
-              </Tie>
-            <endSpanner id="19"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="22">
-              </Tie>
-            <endSpanner id="20"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2204,16 +2157,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <Tie id="23">
-              </Tie>
-            <endSpanner id="21"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="24">
-              </Tie>
-            <endSpanner id="22"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2224,16 +2171,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <dots>1</dots>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="25">
-              </Tie>
-            <endSpanner id="23"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="26">
-              </Tie>
-            <endSpanner id="24"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2244,16 +2185,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <dots>1</dots>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="27">
-              </Tie>
-            <endSpanner id="25"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="28">
-              </Tie>
-            <endSpanner id="26"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2264,22 +2199,16 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <dots>1</dots>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="29">
-              </Tie>
-            <endSpanner id="27"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="30">
-              </Tie>
-            <endSpanner id="28"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <BarLine>
-          <subtype>double</subtype>
+          <subtype>normal</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
@@ -2288,16 +2217,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <dots>1</dots>
           <durationType>whole</durationType>
           <Note>
-            <Tie id="31">
-              </Tie>
-            <endSpanner id="29"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="32">
-              </Tie>
-            <endSpanner id="30"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2307,12 +2230,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="31"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="32"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
