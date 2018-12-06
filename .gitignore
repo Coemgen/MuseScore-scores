@@ -6,5 +6,5 @@
 *.mscx,
 /*
 !Instruments/
-!Scores
+!Scores/
 Scores/.svn/
