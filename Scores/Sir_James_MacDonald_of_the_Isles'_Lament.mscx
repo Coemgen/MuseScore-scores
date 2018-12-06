@@ -56,6 +56,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
         <System>
           </System>
         </Page>
@@ -65,10 +69,98 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName></trackName>
+      <trackName>Bagpipe</trackName>
       <Instrument>
-        <trackName></trackName>
+        <longName>Bagpipe</longName>
+        <shortName>Bagp.</shortName>
+        <trackName>Bagpipe</trackName>
+        <minPitchP>67</minPitchP>
+        <maxPitchP>77</maxPitchP>
+        <minPitchA>67</minPitchA>
+        <maxPitchA>77</maxPitchA>
+        <instrumentId>wind.pipes.bagpipes</instrumentId>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
         <Channel>
+          <program value="109"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        <bracket type="-1" span="0"/>
+        </Staff>
+      <trackName>Bagpipe</trackName>
+      <Instrument>
+        <longName>Bagpipe</longName>
+        <shortName>Bagp.</shortName>
+        <trackName>Bagpipe</trackName>
+        <minPitchP>67</minPitchP>
+        <maxPitchP>77</maxPitchP>
+        <minPitchA>67</minPitchA>
+        <maxPitchA>77</maxPitchA>
+        <instrumentId>wind.pipes.bagpipes</instrumentId>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="109"/>
+          <controller ctrl="7" value="50"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -81,7 +173,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <text>Sir James MacDonald of the Isles' Lament</text>
           </Text>
         </VBox>
-      <Measure number="1" len="19/16">
+      <Measure number="1">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <KeySig>
           <accidental>2</accidental>
           <mode>major</mode>
@@ -89,8 +184,14 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Tempo>
           <tempo>0.666667</tempo>
           <followText>1</followText>
-          <text>Lento<sym>unicodeNoteQuarterUp</sym> = 40.00</text>
+          <text><sym>unicodeNoteQuarterUp</sym> = 40</text>
           </Tempo>
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="2" len="5/4">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -228,6 +329,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>2</Beam>
           <Lyrics>
@@ -240,7 +342,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="2">
+      <Measure number="3">
         <Beam id="3">
           </Beam>
         <Chord>
@@ -363,7 +465,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3" len="5/4">
+      <Measure number="4" len="5/4">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -503,7 +605,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="4" len="3/2">
+      <Measure number="5" len="3/2">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -670,7 +772,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="5" len="23/16">
+      <Measure number="6" len="6/4">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -834,6 +936,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>7</Beam>
           <Lyrics>
@@ -846,7 +949,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6">
+      <Measure number="7">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -976,7 +1079,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <span>1</span>
           </BarLine>
         </Measure>
-      <Measure number="7" len="5/4">
+      <Measure number="8" len="5/4">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -1116,7 +1219,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="8" len="3/2">
+      <Measure number="9" len="3/2">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -1283,7 +1386,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9" len="3/2">
+      <Measure number="10" len="3/2">
         <Volta id="2">
           <endHook>1</endHook>
           <beginText>
@@ -1442,7 +1545,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10" len="3/2">
+      <Measure number="11" len="3/2">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -1597,7 +1700,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <span>1</span>
           </BarLine>
         </Measure>
-      <Measure number="11" len="23/16">
+      <Measure number="12" len="6/4">
         <endSpanner id="2"/>
         <Chord>
           <durationType>eighth</durationType>
@@ -1762,6 +1865,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>14</Beam>
           <Lyrics>
@@ -1774,7 +1878,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="13">
         <endRepeat>2</endRepeat>
         <Beam id="15">
           </Beam>
@@ -1894,6 +1998,322 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      </Staff>
+    <Staff id="2">
+      <Measure number="1">
+        <Clef>
+          <concertClefType>F</concertClefType>
+          <transposingClefType>F</transposingClefType>
+          </Clef>
+        <KeySig>
+          <accidental>2</accidental>
+          <mode>major</mode>
+          </KeySig>
+        <Chord>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="3">
+              </Tie>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="4">
+              </Tie>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="2" len="5/4">
+        <Chord>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="5">
+              </Tie>
+            <endSpanner id="3"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="6">
+              </Tie>
+            <endSpanner id="4"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="7">
+              </Tie>
+            <endSpanner id="5"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="8">
+              </Tie>
+            <endSpanner id="6"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="3">
+        <Chord>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="9">
+              </Tie>
+            <endSpanner id="7"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="10">
+              </Tie>
+            <endSpanner id="8"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="4" len="5/4">
+        <Chord>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="11">
+              </Tie>
+            <endSpanner id="9"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="12">
+              </Tie>
+            <endSpanner id="10"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="13">
+              </Tie>
+            <endSpanner id="11"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="14">
+              </Tie>
+            <endSpanner id="12"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="5" len="3/2">
+        <Chord>
+          <dots>1</dots>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="15">
+              </Tie>
+            <endSpanner id="13"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="16">
+              </Tie>
+            <endSpanner id="14"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="6" len="6/4">
+        <Chord>
+          <dots>1</dots>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="17">
+              </Tie>
+            <endSpanner id="15"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="18">
+              </Tie>
+            <endSpanner id="16"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="7">
+        <Chord>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="19">
+              </Tie>
+            <endSpanner id="17"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="20">
+              </Tie>
+            <endSpanner id="18"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <BarLine>
+          <subtype>double</subtype>
+          <span>1</span>
+          </BarLine>
+        </Measure>
+      <Measure number="8" len="5/4">
+        <Chord>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="21">
+              </Tie>
+            <endSpanner id="19"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="22">
+              </Tie>
+            <endSpanner id="20"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="23">
+              </Tie>
+            <endSpanner id="21"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="24">
+              </Tie>
+            <endSpanner id="22"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="9" len="3/2">
+        <Chord>
+          <dots>1</dots>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="25">
+              </Tie>
+            <endSpanner id="23"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="26">
+              </Tie>
+            <endSpanner id="24"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="10" len="3/2">
+        <Chord>
+          <dots>1</dots>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="27">
+              </Tie>
+            <endSpanner id="25"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="28">
+              </Tie>
+            <endSpanner id="26"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11" len="3/2">
+        <Chord>
+          <dots>1</dots>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="29">
+              </Tie>
+            <endSpanner id="27"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="30">
+              </Tie>
+            <endSpanner id="28"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <BarLine>
+          <subtype>double</subtype>
+          <span>1</span>
+          </BarLine>
+        </Measure>
+      <Measure number="12" len="6/4">
+        <Chord>
+          <dots>1</dots>
+          <durationType>whole</durationType>
+          <Note>
+            <Tie id="31">
+              </Tie>
+            <endSpanner id="29"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <Tie id="32">
+              </Tie>
+            <endSpanner id="30"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="13">
+        <Chord>
+          <durationType>whole</durationType>
+          <Note>
+            <endSpanner id="31"/>
+            <pitch>45</pitch>
+            <tpc>17</tpc>
+            </Note>
+          <Note>
+            <endSpanner id="32"/>
+            <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
