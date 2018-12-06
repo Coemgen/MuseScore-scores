@@ -4,3 +4,7 @@
 *.pdf
 *.abc
 *.mscx,
+/*
+!Instruments/
+!Scores
+Scores/.svn/
