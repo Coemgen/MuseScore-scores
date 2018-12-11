@@ -604,7 +604,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>dre</text>
+            <text>edre</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -763,8 +763,8 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1217,7 +1217,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>dre</text>
+            <text>edre</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1703,10 +1703,6 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>normal</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       <Measure number="12" len="6/4">
         <endSpanner id="2"/>
@@ -2207,10 +2203,6 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>normal</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       <Measure number="12" len="6/4">
         <Chord>
