@@ -192,11 +192,6 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Rest>
         </Measure>
       <Measure number="2" len="5/4">
-        <startRepeat/>
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -1086,6 +1081,11 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </BarLine>
         </Measure>
       <Measure number="8" len="5/4">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -1398,10 +1398,20 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </LayoutBreak>
         <Volta id="2">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>1</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-3"/>
+            </Segment>
+          <Segment>
+            <subtype>3</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-3"/>
+            </Segment>
           <beginText>
-            <text>2.</text>
+            <text>1.</text>
             </beginText>
-          <endings>2</endings>
+          <endings>1</endings>
           </Volta>
         <Chord>
           <durationType>eighth</durationType>
@@ -2029,10 +2039,6 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </Chord>
         </Measure>
       <Measure number="2" len="5/4">
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         <Chord>
           <durationType>whole</durationType>
           <Note>
@@ -2139,6 +2145,10 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </BarLine>
         </Measure>
       <Measure number="8" len="5/4">
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Chord>
           <durationType>whole</durationType>
           <Note>
