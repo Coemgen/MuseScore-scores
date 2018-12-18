@@ -10,8 +10,8 @@
     <Division>480</Division>
     <Style>
       <page-layout>
-        <page-height>1190.55</page-height>
-        <page-width>1683.78</page-width>
+        <page-height>1683.78</page-height>
+        <page-width>1190.55</page-width>
         <page-margins type="even">
           <left-margin>56.6929</left-margin>
           <right-margin>56.6929</right-margin>
@@ -25,7 +25,7 @@
           <bottom-margin>113.386</bottom-margin>
           </page-margins>
         </page-layout>
-      <Spatium>1.764</Spatium>
+      <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -34,7 +34,7 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer">William MacDonald of Vallay</metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate">2018-12-06</metaTag>
+    <metaTag name="creationDate">2018-12-17</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle">Sir James MacDonald of the Isles' Lament
@@ -56,10 +56,22 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           </System>
         <System>
           </System>
-        </Page>
-      <Page>
         <System>
           </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         </Page>
@@ -69,98 +81,12 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>Bagpipe</trackName>
+      <trackName></trackName>
       <Instrument>
-        <longName>Bagpipe</longName>
-        <shortName>Bagp.</shortName>
-        <trackName>Bagpipe</trackName>
-        <minPitchP>67</minPitchP>
-        <maxPitchP>77</maxPitchP>
-        <minPitchA>67</minPitchA>
-        <maxPitchA>77</maxPitchA>
-        <instrumentId>wind.pipes.bagpipes</instrumentId>
-        <Articulation>
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="staccatissimo">
-          <velocity>100</velocity>
-          <gateTime>33</gateTime>
-          </Articulation>
-        <Articulation name="staccato">
-          <velocity>100</velocity>
-          <gateTime>50</gateTime>
-          </Articulation>
-        <Articulation name="portato">
-          <velocity>100</velocity>
-          <gateTime>67</gateTime>
-          </Articulation>
-        <Articulation name="tenuto">
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="marcato">
-          <velocity>120</velocity>
-          <gateTime>67</gateTime>
-          </Articulation>
-        <Articulation name="sforzato">
-          <velocity>120</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
+        <trackName></trackName>
+        <transposeDiatonic>1</transposeDiatonic>
+        <transposeChromatic>1</transposeChromatic>
         <Channel>
-          <program value="109"/>
-          <synti>Fluid</synti>
-          </Channel>
-        </Instrument>
-      </Part>
-    <Part>
-      <Staff id="2">
-        <StaffType group="pitched">
-          <name>stdNormal</name>
-          </StaffType>
-        <bracket type="-1" span="0"/>
-        </Staff>
-      <trackName>Bagpipe</trackName>
-      <Instrument>
-        <longName>Bagpipe</longName>
-        <shortName>Bagp.</shortName>
-        <trackName>Bagpipe</trackName>
-        <minPitchP>67</minPitchP>
-        <maxPitchP>77</maxPitchP>
-        <minPitchA>67</minPitchA>
-        <maxPitchA>77</maxPitchA>
-        <instrumentId>wind.pipes.bagpipes</instrumentId>
-        <Articulation>
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="staccatissimo">
-          <velocity>100</velocity>
-          <gateTime>33</gateTime>
-          </Articulation>
-        <Articulation name="staccato">
-          <velocity>100</velocity>
-          <gateTime>50</gateTime>
-          </Articulation>
-        <Articulation name="portato">
-          <velocity>100</velocity>
-          <gateTime>67</gateTime>
-          </Articulation>
-        <Articulation name="tenuto">
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="marcato">
-          <velocity>120</velocity>
-          <gateTime>67</gateTime>
-          </Articulation>
-        <Articulation name="sforzato">
-          <velocity>120</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Channel>
-          <program value="109"/>
-          <controller ctrl="7" value="50"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -169,14 +95,11 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
       <VBox>
         <height>10</height>
         <Text>
-          <style>Title</style>
-          <text>Sir James MacDonald of the Isles' Lament</text>
+          <style>Lyricist</style>
+          <text>&quot;Ce\`ol M\`or&quot;</text>
           </Text>
         </VBox>
-      <Measure number="1">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="1" len="19/16">
         <KeySig>
           <accidental>2</accidental>
           <mode>major</mode>
@@ -184,20 +107,15 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
         <Tempo>
           <tempo>0.666667</tempo>
           <followText>1</followText>
-          <text><sym>unicodeNoteQuarterUp</sym> = 40</text>
+          <text>Lento<sym>unicodeNoteQuarterUp</sym> = 40.00</text>
           </Tempo>
-        <Rest>
-          <durationType>measure</durationType>
-          <duration z="4" n="4"/>
-          </Rest>
-        </Measure>
-      <Measure number="2" len="5/4">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -206,8 +124,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="1">
@@ -221,61 +140,70 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>en</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Beam>1</Beam>
           <Lyrics>
+            <syllabic>begin</syllabic>
             <text>o</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
+            <syllabic>end</syllabic>
             <text>dro</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -284,8 +212,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>ha</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Beam id="2">
@@ -299,57 +228,66 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>o</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>dro</text>
+            <text>dro,</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3">
+      <Measure number="2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="3">
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -357,30 +295,35 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
+            <syllabic>begin</syllabic>
             <text>hio</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
+            <syllabic>end</syllabic>
             <text>em</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -389,16 +332,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>to</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -408,72 +353,77 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>harin</text>
+            <text>harin.</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="4" len="5/4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="3" len="5/4">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -482,8 +432,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="4">
@@ -497,61 +448,70 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>en</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Beam>4</Beam>
           <Lyrics>
+            <syllabic>begin</syllabic>
             <text>o</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
+            <syllabic>end</syllabic>
             <text>dro</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -560,60 +520,70 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>he</text>
             </Lyrics>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>edre</text>
+            <text>edre,</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="5" len="3/2">
+      <Measure number="4" len="3/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -622,8 +592,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="5">
@@ -632,8 +603,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -645,8 +617,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>do</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -656,40 +629,45 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>en</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -698,16 +676,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>dre</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -716,16 +696,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -734,53 +716,59 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>to</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
+          <durationType>16th</durationType>
+          <grace16/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <grace16/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>tra</text>
+            <text>tra.</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6" len="6/4">
+      <Measure number="5" len="23/16">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -789,8 +777,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="6">
@@ -799,8 +788,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -812,8 +802,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>do</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -823,40 +814,45 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>en</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -865,16 +861,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>dre</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -883,8 +881,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -893,8 +892,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>a</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Beam id="7">
@@ -908,49 +908,54 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>o</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
           <Beam>7</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>dro</text>
+            <text>dro,</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="7">
+      <Measure number="6">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -960,8 +965,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -972,8 +978,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hio</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -983,16 +990,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>em</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1001,16 +1010,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>to</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1020,59 +1031,66 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>harin</text>
+            <text>harin.</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <BarLine>
@@ -1080,7 +1098,7 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <span>1</span>
           </BarLine>
         </Measure>
-      <Measure number="8" len="5/4">
+      <Measure number="7" len="5/4">
         <startRepeat/>
         <BarLine>
           <subtype>start-repeat</subtype>
@@ -1090,8 +1108,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1100,8 +1119,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="9">
@@ -1115,61 +1135,70 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>en</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Beam>9</Beam>
           <Lyrics>
+            <syllabic>begin</syllabic>
             <text>o</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
+            <syllabic>end</syllabic>
             <text>dro</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1178,60 +1207,70 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>he</text>
             </Lyrics>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>edre</text>
+            <text>edre,</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9" len="3/2">
+      <Measure number="8" len="3/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1240,8 +1279,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="10">
@@ -1250,8 +1290,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1263,8 +1304,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>do</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1274,40 +1316,45 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>en</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1316,16 +1363,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>dre</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1334,16 +1383,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1352,16 +1403,27 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>to</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1370,46 +1432,27 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>tra</text>
+            <text>tra.</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10" len="3/2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="9" len="3/2">
         <Volta id="2">
           <endHook>1</endHook>
-          <Segment>
-            <subtype>1</subtype>
-            <off2 x="0" y="0"/>
-            <offset x="0" y="-3"/>
-            </Segment>
-          <Segment>
-            <subtype>3</subtype>
-            <off2 x="0" y="0"/>
-            <offset x="0" y="-3"/>
-            </Segment>
           <beginText>
-            <text>1.</text>
+            <text>1</text>
             </beginText>
           <endings>1</endings>
           </Volta>
@@ -1417,8 +1460,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1427,8 +1471,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="11">
@@ -1437,8 +1482,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1450,8 +1496,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>do</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1461,16 +1508,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>em</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1479,16 +1528,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>to</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1497,8 +1548,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="12">
@@ -1512,64 +1564,75 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>en</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Beam>12</Beam>
           <Lyrics>
+            <syllabic>begin</syllabic>
             <text>o</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>dro</text>
+            <text>dro,</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="11" len="3/2">
+      <Measure number="10" len="3/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1578,16 +1641,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1596,40 +1661,45 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>do</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1638,16 +1708,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>dre</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1656,16 +1728,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1674,16 +1748,27 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>to</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1692,36 +1777,35 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>tra</text>
+            <text>tra.</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>double</subtype>
+          <span>1</span>
+          </BarLine>
         </Measure>
-      <Measure number="12" len="6/4">
+      <Measure number="11" len="23/16">
         <endSpanner id="2"/>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1730,8 +1814,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Beam id="13">
@@ -1740,8 +1825,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1753,8 +1839,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>do</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1764,40 +1851,45 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>en</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            <tpc2>20</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1806,16 +1898,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>dre</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1824,8 +1918,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1834,8 +1929,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>a</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Beam id="14">
@@ -1849,58 +1945,67 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>o</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
           <Beam>14</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>dro</text>
+            <text>dro,</text>
             </Lyrics>
           <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="13">
+      <Measure number="12">
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="15">
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1911,8 +2016,9 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hio</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1922,16 +2028,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>em</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1940,16 +2048,18 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>to</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
@@ -1959,184 +2069,799 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
             <text>hi</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>harin</text>
+            <text>harin.</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
         </Measure>
-      </Staff>
-    <Staff id="2">
-      <Measure number="1">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
-        <KeySig>
-          <accidental>2</accidental>
-          <mode>major</mode>
-          </KeySig>
+      <Measure number="13" len="9/8">
         <Chord>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>hin</text>
+            </Lyrics>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="16">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>16</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>en</text>
+            </Lyrics>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>16</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>to</text>
+            </Lyrics>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>ho</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="17">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>17</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>en</text>
+            </Lyrics>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>17</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>do,</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="2" len="5/4">
+      <Measure number="14" len="9/8">
         <Chord>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>ha</text>
+            </Lyrics>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="18">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>18</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>en</text>
+            </Lyrics>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>18</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>do</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>hio</text>
+            </Lyrics>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="19">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>19</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>em</text>
+            </Lyrics>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>19</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>to,</text>
+            </Lyrics>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="15" len="9/8">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>hin</text>
+            </Lyrics>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="20">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>20</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>en</text>
+            </Lyrics>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>20</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>to</text>
+            </Lyrics>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>ho</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="21">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>21</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>en</text>
+            </Lyrics>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>21</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>do,</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="16">
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="3">
+        <Beam id="22">
+          </Beam>
         <Chord>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="4" len="5/4">
         <Chord>
-          <durationType>whole</durationType>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>22</Beam>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>22</Beam>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="5" len="3/2">
+        <Beam id="23">
+          </Beam>
         <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <Beam>23</Beam>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>23</Beam>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6" len="6/4">
+      <Measure number="17">
         <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="24">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <Beam>24</Beam>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>24</Beam>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="25">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>25</Beam>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>25</Beam>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="7">
+      <Measure number="18" len="9/8">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="26">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>26</Beam>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>26</Beam>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="27">
+          <StemDirection>down</StemDirection>
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>27</Beam>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>27</Beam>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         <BarLine>
@@ -2144,100 +2869,669 @@ Cumha an Ridire Seumas Mac Dhòmhnaill nan Eilean</metaTag>
           <span>1</span>
           </BarLine>
         </Measure>
-      <Measure number="8" len="5/4">
+      <Measure number="19" len="9/8">
+        <startRepeat/>
         <BarLine>
           <subtype>start-repeat</subtype>
           <span>1</span>
           </BarLine>
         <Chord>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="9" len="3/2">
+        <Beam id="28">
+          </Beam>
         <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <Beam>28</Beam>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="10" len="3/2">
         <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>28</Beam>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="29">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <Beam>29</Beam>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>29</Beam>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="11" len="3/2">
+      <Measure number="20">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="30">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <Beam>30</Beam>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            </Note>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="12" len="6/4">
         <Chord>
+          <durationType>16th</durationType>
+          <Beam>30</Beam>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="31">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
           <dots>1</dots>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <Beam>31</Beam>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>31</Beam>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="13">
+      <Measure number="21" len="9/8">
+        <Volta id="3">
+          <endHook>1</endHook>
+          <beginText>
+            <text>1</text>
+            </beginText>
+          <endings>1</endings>
+          </Volta>
         <Chord>
-          <durationType>whole</durationType>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
           <Note>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
             </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="32">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>32</Beam>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>32</Beam>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="33">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>33</Beam>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>33</Beam>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="22">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="34">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>34</Beam>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>34</Beam>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="35">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>35</Beam>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>35</Beam>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>1</span>
+          </BarLine>
+        </Measure>
+      <Measure number="23">
+        <endSpanner id="3"/>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="36">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>36</Beam>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>36</Beam>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="37">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>37</Beam>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>37</Beam>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="24" len="9/8">
+        <endRepeat>2</endRepeat>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="38">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>38</Beam>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            <tpc2>17</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>38</Beam>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <tpc2>21</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>80</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
+            </Note>
+          </Chord>
+        <Beam id="39">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            <tpc2>18</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>39</Beam>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            <tpc2>15</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            <tpc2>16</tpc2>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Beam>39</Beam>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <tpc2>19</tpc2>
             </Note>
           </Chord>
         </Measure>
