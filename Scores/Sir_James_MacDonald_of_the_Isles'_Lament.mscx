@@ -6,29 +6,6 @@
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
-      <master>
-        <val id="0">Zita1</val>
-        <val id="1">NoEffect</val>
-        <val id="2">0.1</val>
-        <val id="3">477</val>
-        </master>
-      <Fluid>
-        <val id="0">MuseScore_General.sf3</val>
-        </Fluid>
-      <Zerberus>
-        </Zerberus>
-      <Zita1>
-        <val id="0">0.25</val>
-        <val id="1">0.462756</val>
-        <val id="2">0.161809</val>
-        <val id="3">0.333333</val>
-        <val id="4">0.25</val>
-        <val id="5">0.335245</val>
-        <val id="6">0.5</val>
-        <val id="7">0.664755</val>
-        <val id="8">0.5</val>
-        <val id="9">0.33</val>
-        </Zita1>
       </Synthesizer>
     <Division>480</Division>
     <Style>
@@ -3794,8 +3771,7 @@
           </Chord>
         <Chord>
           <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>43</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
@@ -3815,7 +3791,8 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>16th</durationType>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
           <Beam>43</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -4320,7 +4297,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="30" len="15/16">
+      <Measure number="30">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -4477,7 +4454,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
@@ -4486,6 +4462,7 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>51</Beam>
           <Lyrics>
@@ -4991,8 +4968,7 @@
           </Chord>
         <Chord>
           <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>57</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
@@ -5012,7 +4988,8 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>16th</durationType>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
           <Beam>57</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -5494,8 +5471,7 @@
           </Chord>
         <Chord>
           <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>63</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
@@ -5515,7 +5491,8 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>16th</durationType>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
           <Beam>63</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -5527,7 +5504,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="37" len="9/8">
+      <Measure number="37">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -5620,7 +5597,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>64</Beam>
           <Lyrics>
@@ -5642,6 +5618,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>64</Beam>
           <Lyrics>
             <text>to,</text>
             </Lyrics>
@@ -5742,7 +5719,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>65</Beam>
           <Lyrics>
@@ -5774,7 +5750,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="38" len="9/8">
+      <Measure number="38" len="17/16">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -5870,7 +5846,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>66</Beam>
           <Lyrics>
@@ -5892,6 +5867,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>66</Beam>
           <Lyrics>
             <text>do,</text>
             </Lyrics>
@@ -6024,7 +6000,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="39" len="9/8">
+      <Measure number="39">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -6117,7 +6093,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>68</Beam>
           <Lyrics>
@@ -6139,6 +6114,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>68</Beam>
           <Lyrics>
             <text>to,</text>
             </Lyrics>
@@ -6239,7 +6215,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>69</Beam>
           <Lyrics>
@@ -6271,7 +6246,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="40" len="9/8">
+      <Measure number="40">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -6367,7 +6342,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>70</Beam>
           <Lyrics>
@@ -6381,6 +6355,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>70</Beam>
           <Lyrics>
             <text>de,</text>
             </Lyrics>
@@ -6481,7 +6456,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>71</Beam>
           <Lyrics>
@@ -6505,7 +6479,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="41" len="9/8">
+      <Measure number="41">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -6598,7 +6572,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>72</Beam>
           <Lyrics>
@@ -6612,6 +6585,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>72</Beam>
           <Lyrics>
             <text>da,</text>
             </Lyrics>
@@ -6712,7 +6686,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>73</Beam>
           <Lyrics>
@@ -6736,7 +6709,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="42" len="9/8">
+      <Measure number="42" len="17/16">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -6832,7 +6805,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>74</Beam>
           <Lyrics>
@@ -6854,6 +6826,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>74</Beam>
           <Lyrics>
             <text>do,</text>
             </Lyrics>
@@ -6990,7 +6963,7 @@
           <span>1</span>
           </BarLine>
         </Measure>
-      <Measure number="43" len="9/8">
+      <Measure number="43">
         <startRepeat/>
         <BarLine>
           <subtype>start-repeat</subtype>
@@ -7088,7 +7061,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>76</Beam>
           <Lyrics>
@@ -7110,6 +7082,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>76</Beam>
           <Lyrics>
             <text>to,</text>
             </Lyrics>
@@ -7210,7 +7183,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>77</Beam>
           <Lyrics>
@@ -7242,7 +7214,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="44" len="9/8">
+      <Measure number="44">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -7338,7 +7310,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>78</Beam>
           <Lyrics>
@@ -7352,6 +7323,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>78</Beam>
           <Lyrics>
             <text>de,</text>
             </Lyrics>
@@ -7452,7 +7424,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>79</Beam>
           <Lyrics>
@@ -7476,7 +7447,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="45" len="9/8">
+      <Measure number="45" len="17/16">
         <Volta id="5">
           <endHook>1</endHook>
           <beginText>
@@ -7576,7 +7547,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>80</Beam>
           <Lyrics>
@@ -7598,6 +7568,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>80</Beam>
           <Lyrics>
             <text>do,</text>
             </Lyrics>
@@ -7730,7 +7701,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="46" len="9/8">
+      <Measure number="46">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -7826,7 +7797,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>82</Beam>
           <Lyrics>
@@ -7840,6 +7810,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>82</Beam>
           <Lyrics>
             <text>de,</text>
             </Lyrics>
@@ -7940,7 +7911,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>83</Beam>
           <Lyrics>
@@ -7968,7 +7938,7 @@
           <span>1</span>
           </BarLine>
         </Measure>
-      <Measure number="47" len="9/8">
+      <Measure number="47">
         <endSpanner id="5"/>
         <Chord>
           <durationType>eighth</durationType>
@@ -8062,7 +8032,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>84</Beam>
           <Lyrics>
@@ -8076,6 +8045,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>84</Beam>
           <Lyrics>
             <text>da,</text>
             </Lyrics>
@@ -8176,7 +8146,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>85</Beam>
           <Lyrics>
@@ -8200,11 +8169,8 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="48" len="9/8">
+      <Measure number="48" len="17/16">
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Jump>
           <style>Repeat Text Right</style>
           <text>D.C. al Fine</text>
@@ -8305,7 +8271,6 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>86</Beam>
           <Lyrics>
@@ -8327,6 +8292,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>86</Beam>
           <Lyrics>
             <text>do,</text>
             </Lyrics>
