@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore>
+      <Genre id="world">
+            <name>World Music</name>
+      </Genre>
       <Genre id="common">
             <name>Common</name>
       </Genre>
@@ -23,9 +26,6 @@
       </Genre>
       <Genre id="electronic">
             <name>Electronic Music</name>
-      </Genre>
-      <Genre id="world">
-            <name>World Music</name>
       </Genre>
       <Genre id="earlymusic">
             <name>Early Music</name>
@@ -63,6 +63,22 @@
       </Articulation>
       <InstrumentGroup id="woodwinds">
             <name>Woodwinds</name>
+            <Instrument id="bagpipe">
+                  <longName>Bagpipe</longName>
+                  <shortName>Bagp.</shortName>
+                  <description>Bagpipe</description>
+                  <musicXMLid>wind.pipes.bagpipes</musicXMLid>
+                  <clef>G</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>67-77</aPitchRange>
+                  <pPitchRange>67-77</pPitchRange>
+                  <transposeDiatonic>0</transposeDiatonic>
+                  <transposeChromatic>0</transposeChromatic>
+                  <Channel>
+                        <program value="109"/>
+                  </Channel>
+                  <genre>world</genre>
+            </Instrument>
             <Instrument id="Winds">
                   <longName>Winds</longName>
                   <shortName>Wi.</shortName>
@@ -2446,22 +2462,6 @@
                   <Channel>
                         <program value="67"/>
                   </Channel>
-            </Instrument>
-            <Instrument id="bagpipe">
-                  <longName>Bagpipe</longName>
-                  <shortName>Bagp.</shortName>
-                  <description>Bagpipe</description>
-                  <musicXMLid>wind.pipes.bagpipes</musicXMLid>
-                  <clef>G</clef>
-                  <barlineSpan>1</barlineSpan>
-                  <aPitchRange>67-77</aPitchRange>
-                  <pPitchRange>67-77</pPitchRange>
-                  <transposeDiatonic>0</transposeDiatonic>
-                  <transposeChromatic>0</transposeChromatic>
-                  <Channel>
-                        <program value="109"/>
-                  </Channel>
-                  <genre>world</genre>
             </Instrument>
       </InstrumentGroup>
       <InstrumentGroup id="free-reed">
