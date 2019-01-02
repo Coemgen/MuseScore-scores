@@ -34,7 +34,7 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate">2018-12-31</metaTag>
+    <metaTag name="creationDate">2019-01-01</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle">MacGregor of Huara (for MuseScore)</metaTag>
@@ -118,7 +118,7 @@
           <text>MacGregor of Huara (for MuseScore)</text>
           </Text>
         </VBox>
-      <Measure number="1" len="1/4">
+      <Measure number="1">
         <KeySig>
           <accidental>2</accidental>
           <mode>major</mode>
@@ -161,8 +161,6 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="2">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -215,10 +213,13 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="2">
         <Beam id="2">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>2</Beam>
           <Lyrics>
@@ -231,7 +232,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -242,8 +243,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="3">
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -264,6 +263,8 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="3">
         <Beam id="3">
           </Beam>
         <Chord>
@@ -292,8 +293,6 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="4">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -346,10 +345,13 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="4">
         <Beam id="4">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>4</Beam>
           <Lyrics>
@@ -362,7 +364,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>4</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -373,8 +375,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="5">
         <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
@@ -400,7 +400,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <text>tra</text>
             </Lyrics>
@@ -419,158 +419,44 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>o</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>tra</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
         </Measure>
-      <Measure number="6" len="5/8">
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>o</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>tra</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>e</text>
-            </Lyrics>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text>a</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="7">
+      <Measure number="5">
         <Beam id="5">
           </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>16th</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>hio</text>
+            <text>o</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -578,21 +464,32 @@
           <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text>en</text>
+            <text>tra</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Beam id="6">
           </Beam>
         <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>6</Beam>
+          <Lyrics>
+            <text>o</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
           <durationType>eighth</durationType>
           <acciaccatura/>
           <Note>
-            <pitch>79</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -600,29 +497,16 @@
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>16th</durationType>
-          <Beam>6</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>hin</text>
-            </Lyrics>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -630,12 +514,11 @@
           <durationType>eighth</durationType>
           <Beam>6</Beam>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text>em</text>
+            <text>tra</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Beam id="7">
@@ -647,11 +530,11 @@
           <Beam>7</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text>hin</text>
+            <text>e</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -659,565 +542,45 @@
           <Beam>7</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>to</text>
+            <text>a</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="8">
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>he</text>
-            </Lyrics>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
+      <Measure number="6">
         <Beam id="8">
           </Beam>
         <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
           <BeamMode>begin</BeamMode>
-          <dots>1</dots>
           <durationType>16th</durationType>
           <Beam>8</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>a</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>mid</BeamMode>
-          <durationType>32nd</durationType>
-          <Beam>8</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text>o</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>mid</BeamMode>
-          <dots>1</dots>
-          <durationType>16th</durationType>
-          <Beam>8</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text>a</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>32nd</durationType>
-          <Beam>8</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text>o</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>em</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="9" len="5/8">
-        <endRepeat>2</endRepeat>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>hin</text>
-            </Lyrics>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>dro</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>en</text>
-            </Lyrics>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="10" len="1/4">
-        <startRepeat/>
-        <Beam id="9">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>9</Beam>
-          <Lyrics>
-            <text>hinto</text>
-            </Lyrics>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>9</Beam>
-          <Lyrics>
-            <text>dili</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="11">
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>81</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>i</text>
-            </Lyrics>
-          <Note>
-            <pitch>81</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>e</text>
-            </Lyrics>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>he</text>
-            </Lyrics>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="12">
-        <Beam id="10">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>10</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text>a</text>
-            </Lyrics>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>10</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>o</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Beam id="11">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>11</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text>en</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>11</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>hin</text>
-            </Lyrics>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Beam id="12">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>12</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text>to</text>
-            </Lyrics>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>12</Beam>
-          <Lyrics>
-            <text>dili</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="13">
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>81</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text>i</text>
-            </Lyrics>
-          <Note>
-            <pitch>81</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Beam id="13">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>13</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text>ve</text>
-            </Lyrics>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>mid</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>13</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text>e</text>
-            </Lyrics>
-          <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>mid</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>13</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text>a</text>
-            </Lyrics>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>13</Beam>
-          <Lyrics>
-            <text>i</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="14">
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>em</text>
-            </Lyrics>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>o</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>tra</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="15">
-        <Volta id="2">
-          <endHook>1</endHook>
-          <beginText>
-            <text>1</text>
-            </beginText>
-          <endings>1</endings>
-          </Volta>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>o</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>tra</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>e</text>
-            </Lyrics>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text>a</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="16">
-        <Beam id="14">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <acciaccatura/>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <appoggiatura/>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>16th</durationType>
-          <Beam>14</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>hio</text>
@@ -1230,7 +593,7 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
-          <Beam>14</Beam>
+          <Beam>8</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>en</text>
@@ -1240,7 +603,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Beam id="15">
+        <Beam id="9">
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
@@ -1269,7 +632,7 @@
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>16th</durationType>
-          <Beam>15</Beam>
+          <Beam>9</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>hin</text>
@@ -1282,7 +645,7 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
-          <Beam>15</Beam>
+          <Beam>9</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>em</text>
@@ -1292,13 +655,13 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Beam id="16">
+        <Beam id="10">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <dots>1</dots>
           <durationType>eighth</durationType>
-          <Beam>16</Beam>
+          <Beam>10</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>hin</text>
@@ -1310,7 +673,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>16</Beam>
+          <Beam>10</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>to</text>
@@ -1321,9 +684,14 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="17">
+      <Measure number="7">
+        <Beam id="11">
+          </Beam>
         <Chord>
-          <durationType>quarter</durationType>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>11</Beam>
           <Lyrics>
             <text>he</text>
             </Lyrics>
@@ -1332,13 +700,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Beam id="17">
-          </Beam>
         <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
           <durationType>16th</durationType>
-          <Beam>17</Beam>
+          <Beam>11</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>a</text>
@@ -1348,10 +712,12 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Beam id="12">
+          </Beam>
         <Chord>
-          <BeamMode>mid</BeamMode>
-          <durationType>32nd</durationType>
-          <Beam>17</Beam>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>12</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>o</text>
@@ -1362,10 +728,9 @@
             </Note>
           </Chord>
         <Chord>
-          <BeamMode>mid</BeamMode>
           <dots>1</dots>
-          <durationType>16th</durationType>
-          <Beam>17</Beam>
+          <durationType>eighth</durationType>
+          <Beam>12</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>a</text>
@@ -1375,9 +740,12 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Beam id="13">
+          </Beam>
         <Chord>
-          <durationType>32nd</durationType>
-          <Beam>17</Beam>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>13</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>o</text>
@@ -1388,7 +756,9 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>13</Beam>
           <Lyrics>
             <text>em</text>
             </Lyrics>
@@ -1398,7 +768,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="18" len="5/8">
+      <Measure number="8">
         <endRepeat>2</endRepeat>
         <Chord>
           <durationType>quarter</durationType>
@@ -1445,7 +815,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <text>en</text>
             </Lyrics>
@@ -1455,17 +825,324 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="19">
-        <endSpanner id="2"/>
-        <Volta id="3">
-          <endHook>1</endHook>
-          <beginText>
-            <text>2</text>
-            </beginText>
-          <endings>2</endings>
-          </Volta>
+      <Measure number="9">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
+        <Beam id="14">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>14</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>hin</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>14</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>to</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>e</text>
+            </Lyrics>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>dili</text>
+            </Lyrics>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="10">
+        <Beam id="15">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>15</Beam>
+          <Lyrics>
+            <text>i</text>
+            </Lyrics>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>15</Beam>
+          <Lyrics>
+            <text>e</text>
+            </Lyrics>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Beam id="16">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>16</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>he</text>
+            </Lyrics>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>16</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>a</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Beam id="17">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>17</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>o</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>17</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>en</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11">
+        <Beam id="18">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>18</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>hin</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>18</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>to</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>e</text>
+            </Lyrics>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>dili</text>
+            </Lyrics>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="12">
+        <Beam id="19">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>19</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>i</text>
+            </Lyrics>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>19</Beam>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>ve</text>
+            </Lyrics>
+          <Note>
+            <pitch>78</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>19</Beam>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>e</text>
+            </Lyrics>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>19</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>a</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>i</text>
+            </Lyrics>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>em</text>
+            </Lyrics>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="13">
+        <Volta id="2">
+          <endHook>1</endHook>
+          <beginText>
+            <text>1</text>
+            </beginText>
+          <endings>1</endings>
+          </Volta>
+        <Beam id="20">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>20</Beam>
           <Lyrics>
             <text>o</text>
             </Lyrics>
@@ -1499,7 +1176,9 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>20</Beam>
           <Lyrics>
             <text>tra</text>
             </Lyrics>
@@ -1508,8 +1187,63 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Beam id="21">
+          </Beam>
         <Chord>
-          <durationType>quarter</durationType>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>21</Beam>
+          <Lyrics>
+            <text>o</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>21</Beam>
+          <Lyrics>
+            <text>tra</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Beam id="22">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>22</Beam>
           <Lyrics>
             <text>e</text>
             </Lyrics>
@@ -1518,12 +1252,420 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Beam id="18">
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>22</Beam>
+          <Lyrics>
+            <text>a</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="14">
+        <Beam id="23">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>23</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>hio</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>23</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>en</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Beam id="24">
+          </Beam>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>24</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>hin</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>24</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>em</text>
+            </Lyrics>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Beam id="25">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>25</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>hin</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>25</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>to</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="15">
+        <Beam id="26">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>26</Beam>
+          <Lyrics>
+            <text>he</text>
+            </Lyrics>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>26</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>a</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Beam id="27">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>16th</durationType>
-          <Beam>18</Beam>
+          <Beam>27</Beam>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>o</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>27</Beam>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>a</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Beam id="28">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>28</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>o</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>28</Beam>
+          <Lyrics>
+            <text>em</text>
+            </Lyrics>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="16">
+        <endRepeat>2</endRepeat>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>hin</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>dro</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text>en</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="17">
+        <endSpanner id="2"/>
+        <Volta id="3">
+          <endHook>1</endHook>
+          <beginText>
+            <text>2</text>
+            </beginText>
+          <endings>2</endings>
+          </Volta>
+        <Beam id="29">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>29</Beam>
+          <Lyrics>
+            <text>o</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>29</Beam>
+          <Lyrics>
+            <text>tra</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Beam id="30">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>30</Beam>
+          <Lyrics>
+            <text>o</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <acciaccatura/>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <appoggiatura/>
+          <Note>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>30</Beam>
+          <Lyrics>
+            <text>tra</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Beam id="31">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>31</Beam>
+          <Lyrics>
+            <text>e</text>
+            </Lyrics>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>31</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>ve</text>
@@ -1535,7 +1677,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>18</Beam>
+          <Beam>31</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>di</text>
@@ -1546,8 +1688,8 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="20">
-        <Beam id="19">
+      <Measure number="18">
+        <Beam id="32">
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
@@ -1568,7 +1710,7 @@
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>16th</durationType>
-          <Beam>19</Beam>
+          <Beam>32</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>hio</text>
@@ -1581,7 +1723,7 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
-          <Beam>19</Beam>
+          <Beam>32</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>en</text>
@@ -1591,7 +1733,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Beam id="20">
+        <Beam id="33">
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
@@ -1620,7 +1762,7 @@
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>16th</durationType>
-          <Beam>20</Beam>
+          <Beam>33</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>hin</text>
@@ -1633,7 +1775,7 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
-          <Beam>20</Beam>
+          <Beam>33</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>em</text>
@@ -1643,12 +1785,13 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Beam id="21">
+        <Beam id="34">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
-          <Beam>21</Beam>
+          <Beam>34</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>i</text>
@@ -1659,8 +1802,8 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
-          <Beam>21</Beam>
+          <durationType>16th</durationType>
+          <Beam>34</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>ve</text>
@@ -1671,9 +1814,14 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="21">
+      <Measure number="19">
+        <Beam id="35">
+          </Beam>
         <Chord>
-          <durationType>quarter</durationType>
+          <BeamMode>begin</BeamMode>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>35</Beam>
           <Lyrics>
             <text>e</text>
             </Lyrics>
@@ -1682,29 +1830,50 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Beam id="22">
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>35</Beam>
+          <Lyrics>
+            <text>a</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Beam id="36">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
-          <dots>1</dots>
           <durationType>16th</durationType>
-          <Beam>22</Beam>
+          <Beam>36</Beam>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>eighth</durationType>
+          <Beam>36</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text>a</text>
+            <text>to</text>
             </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Beam id="37">
+          </Beam>
         <Chord>
-          <BeamMode>mid</BeamMode>
-          <durationType>32nd</durationType>
-          <Beam>22</Beam>
+          <BeamMode>begin</BeamMode>
+          <durationType>16th</durationType>
+          <Beam>37</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text>to</text>
+            <text>a</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -1712,35 +1881,12 @@
             </Note>
           </Chord>
         <Chord>
-          <BeamMode>mid</BeamMode>
           <dots>1</dots>
-          <durationType>16th</durationType>
-          <Beam>22</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text>a</text>
-            </Lyrics>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>32nd</durationType>
-          <Beam>22</Beam>
+          <durationType>eighth</durationType>
+          <Beam>37</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>to</text>
-            </Lyrics>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text>em</text>
             </Lyrics>
           <Note>
             <pitch>67</pitch>
@@ -1748,11 +1894,11 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="22" len="5/8">
+      <Measure number="20">
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>hin</text>
+            <text>em</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -1786,7 +1932,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text>to</text>
+            <text>hin</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -1794,9 +1940,9 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
-            <text>en</text>
+            <text>to</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
